@@ -1,0 +1,124 @@
+.glow-marhazk {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 2px 0px 11px #00aeff;
+    background: url(http://www.perfectworld.com.my/images/backround16.gif);
+}
+
+.glow-supermod{
+    color: #CE1800;
+    font-weight: bold;
+    text-shadow: 2px 0px 11px #b80000;
+    background: url(http://www.perfectworld.com.my/images/backround21.gif);
+}
+
+.glow-supervisor{
+    color: #006600;
+    font-weight: bold;
+    text-shadow: 2px 0px 11px #00aeff;
+    background: url(http://www.perfectworld.com.my/images/backround21.gif);
+}
+
+.glow-moderator {
+    color: #1ba300;
+    font-weight: bold;
+    text-shadow: 2px 0px 11px #00aeff;
+    background: url(http://www.perfectworld.com.my/images/backround21.gif);
+}
+
+.glow-azure{
+    color: #00FFFF;
+    font-weight: bold;
+    text-shadow: 2px 0px 11px #000000;
+    background: url(http://www.perfectworld.com.my/images/backround20.gif);
+}
+
+.glow-elite{
+    color: #ff6c00;
+    font-weight: bold;
+    text-shadow: 2px 0px 11px #ffa05c;
+    background: url(http://www.perfectworld.com.my/images/backround6.gif);
+}
+
+.glow-delta{
+    color: #760087;
+    font-weight: bold;
+    text-shadow: 2px 0px 11px #dd00ff;
+    background: url(http://www.perfectworld.com.my/images/backround6.gif);
+}
+
+.glow-peoplewhothinktheyrespecial {
+    color: #0c57be;
+    font-weight: bold;
+    text-shadow: 2px 0px 11px #1279ff;
+}
+
+.glow-developer{
+    color: #373535;
+    font-weight: bold;
+    text-shadow: 2px 0px 11px #000000;
+    background: url(http://www.perfectworld.com.my/images/backround6.gif);
+}
+
+.glow-alpha{
+    color: #CC9900;
+}
+
+.glow-banned{
+    color: #c6c6c6;
+    text-decoration: line-through;
+}
+
+.glow-competition{
+    color: #FFFFFF;
+    background: url(http://www.perfectworld.com.my/images/backround15.gif);
+    font-weight:bold;
+}
+
+.glow-fullmember{
+    color: #647a8d;
+}
+
+.glow-gamma{
+    color: #996600;
+}
+
+.glow-infraction{
+    color: #a2ad00;
+}
+
+.glow-omega{
+    font-weight: bold;
+    color: #0a2962;
+}
+
+.glow-pink{
+    font-weight: bold;
+    color: #FF00FF;
+    background: url(http://www.perfectworld.com.my/images/backround21.gif);
+}
+
+.glow-platinum{
+    color: #5d5d5d;
+    font-weight: bold;
+    background: url(http://www.perfectworld.com.my/images/backround13.gif);
+}
+
+.glow-purple{
+    color:#7d2183;
+    background: url(http://www.perfectworld.com.my/images/backround6.gif);
+}
+
+.glow-red{
+    color:#CC3300;
+    background: url(http://www.perfectworld.com.my/images/backround6.gif);
+}
+
+.glow-vip{
+    color: #FFD600;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #FF0000;
+    background: url(http://www.perfectworld.com.my/images/backround11.gif);
+    font-family: Courier;
+}
+

@@ -1,0 +1,1 @@
+<form action="?op=accounts&type=usermgr" method=post><input type=hidden name=id value=<?php echo $btnID; ?> /><input type=submit name=edit value=Edit /></form>

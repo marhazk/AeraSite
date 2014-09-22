@@ -1,0 +1,32 @@
+.page_version2 {CLEAR: both;  MARGIN:0 auto; TEXT-ALIGN: center; width:550px;font-size:11px; padding:4px 0}
+
+.page_version2 SPAN.no_link{
+MARGIN-RIGHT:2px;
+PADDING: 2px 5px; 
+
+	border: 1px solid #dddddd;
+	background-color: #fff;
+	color: #ccc; 
+
+}
+
+.page_version2 A {
+ MARGIN-RIGHT:2px;
+ PADDING: 2px 5px; 
+ TEXT-DECORATION: none;
+	
+	border: 1px solid #dddddd;
+	background-color: #fff;
+	color: #7F5A00;
+
+
+}
+.page_version2 A:hover,.page_version2 SPAN.current{
+ MARGIN-RIGHT:2px;
+  PADDING:2px 5px; 
+
+	background-color: #7F5A00;
+	border: 1px solid #7F5A00;
+	color: #fff;
+
+}
