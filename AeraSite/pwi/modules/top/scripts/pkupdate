@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cd /root/pwserver/logs
+grep -e ':type=2:' world2.formatlog > kills.formatlog
+chmod 777 kills.formatlog
+sed -i 's/ /,/g' kills.formatlog
+sed -i 's/=/,/g' kills.formatlog
+sed -i 's/:/,/g' kills.formatlog
+sed -i 's/,,,/,/g' kills.formatlog
+sed -i 's/,,/,/g' kills.formatlog
+mysqlimport -uroot -hlocalhost -proot --force --columns=date,hour,minute,@x,@x,@x,@x,@x,@x,@x,corpseid,@x,@x,@x,killerid --fields-terminated-by=, pw /root/pwserver/logs/kills.formatlog
+rm kills.formatlog

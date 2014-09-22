@@ -1,0 +1,24 @@
+<%
+	byte[] cooltimeByte = role.status.coolingtime.getBytes();
+	int cooltimeTotal = cooltimeByte.length;
+	int cooltimeNum = 0;
+	byte _cooltime = 0;
+	while (true)
+	{
+		try
+		{
+			_cooltime = cooltimeByte[cooltimeNum];
+			//out.println("<input type=text name=coolingtime"+cooltimeNum+" value=\""+role.status.coolingtime[cooltimeNum]+"\" size=1>");
+			//out.println("<input type=text name=coolingtime"+cooltimeNum+" value=\""+new String(_cooltime[cooltimeNum], "UTF-8")+"\" size=1>");
+			cooltimeNum++;
+			if (cooltimeNum == cooltimeTotal) break;
+		}
+		catch (Exception e)
+		{
+			break;
+		}
+	}
+	//new String(cooltimeByte, "UTF-8");
+	out.println("(Total: <input type=text name=coolingtimetotal value=\""+cooltimeTotal+"\" size=1>)");
+	
+%>

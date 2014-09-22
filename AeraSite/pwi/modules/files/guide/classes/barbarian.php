@@ -1,0 +1,4 @@
+
+                  <p align="center"><img src="images/wb.jpg" /></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A <strong>Barbarian</strong> is an Untamed class. Their fighting style is mainly   physical, with little to no elemental; they can make good tanks. At   level 9, after raising their Spiritual Cultivation to Spiritual Adept,   they can learn the True Form skill, which they can use to turn into a   white tiger. Their True Form is similar to a Venomancer's Fox Form. In   normal form, a Barbarian looks like a slightly humanoid animal of the   player's choice -- wolf, panda, lion, or tiger. The weapons of choice   for a Barbarian are dual swords, dual blades, blades, swords, scythes,   spears, clubs, poleaxes, sledgehammers, dual handaxes, dual hammers, and   fist weapons. </p>

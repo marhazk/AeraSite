@@ -1,0 +1,84 @@
+<%@page contentType="text/html; charset=GBK"%>
+<%@page import="java.util.*"%>
+<html>
+<head>
+<link href="../include/style.css" rel="stylesheet" type="text/css">
+<title>高级服务器管理</title>
+</head>
+<body>
+<%@include file="../include/header.jsp"%>
+<table width="100%" height="350"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"><tr><td>
+
+<table border cellpadding=2 align="center" width=600>
+<tr><th align=left width=40%>应用</th>    <th align=left>说明</th></tr>
+<tr><td><a href="../cgi-bin/control.cgi?action=status">服务运行状态</a></td><td>&nbsp;当前数据库,link,delivery等的运行状态</td></tr>
+<tr><td><a href="../cgi-bin/control.cgi?action=psstatus">列出所有进程状态</a></td><td>&nbsp;</td></tr>
+<tr><td><a href="../cgi-bin/listbackups.cgi">数据库备份列表</a></td><td>&nbsp;列出所有备份文件,可下载数据库备份或者角色列表</td></tr>
+<tr><td colspan=2>&nbsp;</td></tr>
+
+<tr><td><a href="../cgi-bin/control.cgi?action=shutdowngame">强制关闭<font size=3>游戏</font>服务器</a></td><td>&nbsp;不通知玩家，直接关闭游戏(包括gacd,faction,delivery,link,game)，一般不会回档。&nbsp;<font color=red>慎重操作!点击即关闭!!!</font></td></tr>
+
+<tr><td><a href="../cgi-bin/control.cgi?action=restartgame">强制重新启动<font size=3>游戏</font>服务器</a></td><td>&nbsp;不通知玩家，直接重起游戏，一般不会回档。&nbsp;<font color=red>慎重操作!点击即重启!!!</font></td></tr>
+
+<tr><td><a href="../cgi-bin/control.cgi?action=repairgame">修复启动<font size=3>游戏</font>服务器</a></td><td>&nbsp;修复启动，用于link,delivery,game中某台机器宕机后的修复启动，保持原来正常的部分不动。&nbsp;<font color=red></font></td></tr>
+
+<tr><td colspan=2>&nbsp;</td></tr>
+<tr><td><a href="../cgi-bin/control.cgi?action=shutdowndb">强制关闭<font size=3>数据库</font>服务器</a></td><td>&nbsp;关闭数据库后,玩家数据将不能存盘。如果游戏服务器没有关闭，会回档10分钟左右。&nbsp;<font color=red>慎重操作!点击即关闭!!!</font></td></tr>
+
+<tr><td><a href="../cgi-bin/control.cgi?action=restartdb">强制重新启动<font size=3>数据库</font>服务器</a></td><td>&nbsp;正在下线的玩家会丢失10分钟内数据.&nbsp;<font color=red>慎重操作!点击即重启!!!</font></td></tr>
+
+<tr><td colspan=2>&nbsp;</td></tr>
+<tr><td><a href="../cgi-bin/control.cgi?action=shutdownuniquename">强制关闭<font size=3>唯一名</font>服务器</a></td><td>&nbsp;&nbsp;<font color=red>慎重操作!点击即关闭!!!</font></td></tr>
+
+<tr><td><a href="../cgi-bin/control.cgi?action=restartuniquename">强制重新启动<font size=3>唯一名</font>服务器</a></td><td>&nbsp;&nbsp;<font color=red>慎重操作!点击即重启!!!</font></td></tr>
+<tr><td colspan=2>&nbsp;</td></tr>
+
+<tr><td><a href="../cgi-bin/control.cgi?action=redist">重新发布游戏</a></td><td>&nbsp;上传后，发布新游戏版本。此操作会关闭游戏，更新游戏版本，如不清楚，切勿操作。<font color=red>慎重操作!点击即发布!!!</font></td></tr>
+</table>
+&nbsp;<br>
+
+<table border cellpadding=2 align="center" width=600>
+<tr><th align=left width=40%>其他</th>    <th align=left>说明</th></tr>
+
+<tr><td>
+<form action="../cgi-bin/control.cgi" method="post">
+<input type="hidden" name="action" value="ipdisable">
+<input type="submit" value="封禁外部IP"></form>
+</td><td>&nbsp;注意，需要事先配置好 package 中根目录下的 ipdisable.sh 脚本</td></tr>
+
+<tr><td>
+<form action="../cgi-bin/control.cgi" method="post">
+<input type="hidden" name="action" value="ipenable">
+<input type="submit" value="解封外部IP"></form>
+</td><td>&nbsp;注意，需要事先配置好 package 中tools目录下的 ipenables.sh 脚本</td></tr>
+
+</table>
+&nbsp;<br>
+
+<table width="450" height="200" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td>帮助信息</td>
+  </tr>
+  <tr>
+    <td>
+&nbsp;<br>
+&nbsp;&nbsp;1。关闭服务器操作流程：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1）先“友好关闭”游戏服务器<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2）等待“关闭时间”+60秒，点击“强制关闭游戏服务器”。<br>
+&nbsp;&nbsp;2。如果仅仅副本错误，点击“强制重新启动游戏副本服务器”<br>
+&nbsp;&nbsp;3。如果提示服务器间通讯错误，点击“强制重新启动游戏服务器”<br>
+&nbsp;&nbsp;4。如果登陆时无法读取角色列表，或者游戏运行状态中database为0，说明数据库当了，点击“强制重新启动数据库服务器”。<br>
+&nbsp;&nbsp;5。发布游戏新版本操作流程：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1）先“友好关闭”游戏服务器<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2）等待“关闭时间”+60秒后，点击“重新发布游戏”，再等3分钟即可。<br>
+&nbsp;&nbsp;<br>
+    </td>
+  </tr>
+</table>
+
+
+</td></tr></table>
+<%@include file="../include/foot.jsp"%>
+</body>
+</html>
+

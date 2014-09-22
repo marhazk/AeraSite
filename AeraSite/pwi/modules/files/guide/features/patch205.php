@@ -1,0 +1,2 @@
+<p>Patch 205 Overviews</p>
+<p>In this patch version, the PW Aera launcher has been fixed for temporary. We dont offer download automatically because the previous version of PWAera Launcher has bugs in it, which is does not detect the server connections. In this patch, we ensure you able to connect and start the game through PWAera Launcher. <a href="?op=download/patches">Click here</a> to download the patch manually.</p>

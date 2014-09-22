@@ -1,0 +1,2 @@
+<p>Overviews:</p>
+<p>Pop-up Point will released in incoming patch (207-210). Here, when player run the PWAera Launcher, the launcher will ask you an objective question (Option A to D). Once you have answered the question correctly, you will get free Aerapoint. The quiz will started everyday in between 11am-4pm and 3pm-8pm GMT +8 (Malaysia Timezone). There are 2 quiz will be pop-up at the launcher. So, enjoy play the games.</p>

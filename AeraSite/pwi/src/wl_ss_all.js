@@ -1,0 +1,1 @@
+document.write('<table width=100% class=album_js><tr><td><div align="center"><a href="http://album.perfectworld.my/index.php?c=picture&a=view&id=7753&uid=257563" target="_blank"><img src="http://p1.91huo.com/abum91e/upload/2011/04/05/130203862325s.jpg" border="0" width="180" height="135"></a></div></td></tr></table>');

@@ -1,0 +1,135 @@
+/*
+code by Poorfish
+poorfish@163.net
+03-Jun-2004
+to see a world in a grain of sand
+*/
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #414141;
+}
+body,td,input,select,textarea { color: gray;font-size:12px;font-family: verdana;}
+form { margin:0px}
+textarea { border: 1px solid #CCCCCC; width:80%; background-image:url(images/popo.gif); background-position:bottom right; background-repeat:no-repeat}
+pre { margin: 0px}
+
+A { TEXT-DECORATION: none}
+A:link { COLOR: #2455BF}
+A:visited { COLOR: #2455BF}
+A:hover { COLOR: #000000}
+A:active { COLOR: #000000}
+
+A.head { font-size:14px; font-weight:bold} /* 导航条链接 */
+A.head:link { COLOR: #999999}
+A.head:visited { COLOR: #999999}
+A.head:hover { COLOR: #9E0B0E}
+A.head:active { COLOR: #9E0B0E}
+
+A.left { font-size:13px} /* 菜单项链接 */
+A.left:link { COLOR: #999999}
+A.left:visited { COLOR: #999999}
+A.left:hover { COLOR: #000000}
+A.left:active { COLOR: #000000}
+
+A.white { font-size:12px; font-weight:normal} /* 白色链接 */
+A.white:link { COLOR: #FFFFFF}
+A.white:visited { COLOR: #FFFFFF}
+A.white:hover { COLOR: #FF0000}
+A.white:active { COLOR: #FF0000}
+
+.nav { /* 导航条 */
+	width: 100px;
+	border-left: 1px solid #DCDCDC;
+}
+.nav1 { /* 导航条状态2 */
+	background-color:#FFFFFF;
+	width: 100px;
+        border-left: 1px solid #DCDCDC;
+}
+.navColor { background-color:#9E0B0E; color:#FFFFFF; font-weight:bold; text-align:center} /* 导航辅助色块 */
+.topline { background-color:#000000} /* 顶部线 */
+.shadow { background-color:#B5B5B5} /* 导航条阴影 */
+.left_title { background-color:#A69784}	/* 左栏顶部色条 */
+.left_line {	/* 左栏分隔线与边距 */
+	border-right: 1px solid #E8E8E8;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.menubg { background-color:#F2F2F2}	/* 菜单栏背景色 */
+.menu_margin { margin:10px; background-color: #FFFFFF;}	/* 菜单外边距与线条色 */
+.menu1 {	/* 菜单项状态一 */
+	background-color: #F5F0E9;
+	text-align: center;
+	height: 28px;
+	font-size: 13px;
+}
+.menu2 {	/* 菜单项状态二 */
+	background-color: #FFFFFF;
+	text-align: center;
+	height: 28px;
+	font-size: 13px;
+}
+.main_pad {	/* 主区域边距 */
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.main_topline  { background-color: #F2F2F2 }	/* 主区域顶部条 */
+.table_border  { background-color: #F2F2F2 }	/* 数据表边框 */
+
+.table_bg { background-color: #FFFFFF; }	/* 数据表背景 */
+.table_bghot {
+	background-color: #FFFD9D;
+}
+
+.table_title { font-weight: bold; font-size:13px}	/* 数据表标题栏 */
+
+.table_border2 { background-color: #C0C0C0 }	/* 数据表边框 */
+.table_title2 {
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #F2F2F2;
+}
+.sch_date1, .sch_overtime { /* holiday, overtime */
+	background-color:#E4F6FF;
+}
+.sch_date2 { /* today */
+	color : red
+}
+.sch_date3 { /* today and holiday */
+	background-color:#E4F6FF;
+	color : red
+}
+.sch_delay {
+	background-color:#FF0000
+}
+.sch_memo {
+}
+.sch_log {
+	margin: 10px;
+}
+.button {	/* 按钮 */
+	background-color:#F2F2F2; 
+	border-top: 1px solid #F7F7F7; 
+	border-left: 1px solid #F7F7F7; 
+	border-bottom: 1px solid #CECECE;
+	border-right: 1px solid #CECECE;
+}
+.input { border: 1px solid #CCCCCC}
+.stest { font-size:9px}
+.title { color:black; font-size:14px; font-weight:bold}
+.red {       /* 红色警示文字 */
+	color: red;
+	font-weight: bold;
+}
+.rolelist {	/* 人员列表  */
+	padding: 5px;
+	background-color: #E4F6FF;
+}
+.error {	/* 错误信息 */
+	color: red;
+	padding-top: 80px;
+	text-align: center;
+}

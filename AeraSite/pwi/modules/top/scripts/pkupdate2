@@ -1,0 +1,4 @@
+#!/bin/sh
+
+wget http://localhost/top/pkupdate.php
+rm *php*

@@ -1,0 +1,3 @@
+0 1 * * * /PWServer/scripts/pkupdate
+5 1 * * * /PWServer/scripts/pkupdate2
+10 1 * * * /PWServer/scripts/pkupdate3

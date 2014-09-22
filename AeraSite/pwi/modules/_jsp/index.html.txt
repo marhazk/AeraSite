@@ -1,0 +1,8 @@
+<html>
+<head>
+<meta name="author" content="Kai Oswald Seidler">
+<meta http-equiv="refresh" content="0;url=/xampp/">
+</head>
+<body bgcolor=#ffffff>
+</body>
+</html>

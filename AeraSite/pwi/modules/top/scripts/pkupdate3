@@ -1,0 +1,4 @@
+#!/bin/sh
+
+wget http://localhost:8080/iweb/pkupdate.jsp
+rm *jsp*

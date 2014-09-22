@@ -1,0 +1,76 @@
+<!--==============================content================================-->
+
+<section id="content">
+  <div class="container_12">
+    <div class="wrapper p17">
+      <form id="form1" action="/?/Accounts/Create/{CREATEKEY}" method="POST">
+        <center>
+          <h2>Account Registration</h2>
+          <div class="success_txt">{MSG}</strong></div>
+          <fieldset>
+            <label class="name wrapper-after"><input name="login" id="txtAccount" onpropertychange="checkinvalidchars(document.all.txtAccount);" type="text" required placeholder="User Name:"></label>
+            <p class="tip"><span id="txtAccount_hint" class="DefaultMsg"> <span id="txtAccount_info"><span id="txtAccount_info">Account ID should be 4-20 characters.</span></span> </span></p>
+            
+            
+            
+            <label class="name wrapper-after"><input name="email" maxlength="40" min="6" minlength="6" id="txtEmail" onpropertychange="checkinvalidchars(document.all.txtEmail);" type="text" required placeholder="Email:"></label>
+            <p class="tip"><span class="hint" id="txtEmail_hint"> <span id="txtEmail_info"></span></span></p>
+            <div class="clear"></div>
+            <br>
+            
+            
+            
+            <strong>Passwords</strong>
+            <label class="password"><input name="passwd" maxlength="14" min="6" minlength="6" id="txtPassword" onpropertychange="checkinvalidchars(document.all.txtPassword);" type="password" required></label>
+            <p class="tip"><span id="txtPassword_hint"> <span id="txtPassword_info"></span> </span></p>
+            
+            
+            
+            <label class="password"><input name="repasswd" maxlength="14" min="6" minlength="6" id="txtConfirmPassword" onpropertychange="checkinvalidchars(document.all.txtConfirmPassword);" type="password" required></label>
+            <p class="tip"><span id="txtConfirmPassword_hint"> <span id="txtConfirmPassword_info"></span></span></p>
+            
+          </fieldset>
+          <BR />
+          <li id="trValidater" style="">
+          </li>
+          <table width=300px>
+          <tr>
+          <td width=5% valign=right><input id="isAgreement" name="fastreg" type="checkbox" value="1" required style="
+    vertical-align: bottom;
+    position: relative; width:100px;"/></td>
+          <td width=95% valign=left><p align="left">You must agree our <a href="/?/Aup" target="_blank">Terms of Use and Privacy Policy</a>.</p></td>
+          </tr>
+          </table>
+    
+            <p><i>Notes : You will able to login to any games (i.e: PWI Aera, RYL2 Aera, etc) with any accounts registration that have made in this page.</i></p>
+          <div class="clear"></div>
+          <button class="button3" type=submit data-type="submit">Sign Up!</button>
+          <button class="button3 p27" data-type="reset" type="reset">Clear</button>
+          <br />
+          <br />
+          <p>Forgot password? Click <a href="/?/Accounts/Reset">here</a> to reset your password<br />
+            Dont have an account? Click <a href="/?/Accounts/Create">here</a> to register</p>
+        </center>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<script type="text/javascript">
+var jq = jQuery.noConflict();
+function getSubmit(){}
+</script> 
+<script type="text/javascript" src="../../../images/common_checkvalid.js?rand={RAND}"></script> 
+<script type="text/javascript" src="../../../images/common_js.js?rand={RAND}"></script> 
+<script type="text/javascript" src="../../../images/main_ajax.js?rand={RAND}"></script> 
+<script type="text/javascript" src="../../../images/Reg_check.js?rand={RAND}"></script> 
+<script type="text/javascript">  
+//function $(id){ return document.getElementById(id);}
+var ValidaterShowInt=parseInt(6);
+if ( ValidaterShowInt>= 5){
+jq("#trValidater").show();
+}
+else
+jq("#trValidater").hide(); 
+</script>

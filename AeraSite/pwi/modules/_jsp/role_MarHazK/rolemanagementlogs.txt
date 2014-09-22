@@ -1,0 +1,28 @@
+administrator:login:Wed Sep 19 16:48:04 CST 2007
+administrator:check role name:Wed Sep 19 16:49:09 CST 2007
+administrator:check role name-rolename=hotmama:Wed Sep 19 16:49:15 CST 2007
+administrator:view number of roles:Wed Sep 19 16:50:56 CST 2007
+administrator:view number of roles-userid=576:Wed Sep 19 16:51:06 CST 2007
+administrator:view role list:Wed Sep 19 16:51:41 CST 2007
+administrator:view role list-rolename=hotmama:Wed Sep 19 16:51:47 CST 2007
+administrator:check role name:Wed Sep 19 16:54:01 CST 2007
+administrator:logout:Wed Sep 19 16:54:03 CST 2007
+test1:login:Wed Sep 19 16:54:21 CST 2007
+test1:view role list:Wed Sep 19 17:10:04 CST 2007
+test1:view role list-userid=576:Wed Sep 19 17:10:09 CST 2007
+test1:gold information:Wed Sep 19 17:10:12 CST 2007
+test1:gold information-rolename=hotmama:Wed Sep 19 17:10:20 CST 2007
+test1:check change rolename-rolename=:Wed Sep 19 17:10:28 CST 2007
+test1:check change rolename-rolename=hotmama:Wed Sep 19 17:10:34 CST 2007
+test1:delete role:Wed Sep 19 17:10:41 CST 2007
+test1:forbid role-id=;type=;time=;reason=:Wed Sep 19 17:11:22 CST 2007
+test1:forbid role-id=576;type=;time=;reason=:Wed Sep 19 17:11:30 CST 2007
+test1:forbid role-id=;type=101;time=10;reason=test:Wed Sep 19 17:11:44 CST 2007
+test1:role status-roleid=:Wed Sep 19 17:11:51 CST 2007
+test1:role status-roleid=576:Wed Sep 19 17:11:57 CST 2007
+test1:logout:Wed Sep 19 17:12:01 CST 2007
+administrator:login:Wed Sep 19 17:15:04 CST 2007
+administrator:gold information:Wed Sep 19 17:15:08 CST 2007
+administrator:gold information-userid=575:Wed Sep 19 17:15:13 CST 2007
+administrator:gold information-userid=576:Wed Sep 19 17:15:17 CST 2007
+administrator:logout:Wed Sep 19 17:16:04 CST 2007

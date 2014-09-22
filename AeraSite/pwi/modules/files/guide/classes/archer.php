@@ -1,0 +1,4 @@
+
+                  <p align="center"><img src="images/ea.jpg" /></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An <strong>Archer</strong> is a <a href="http://perfectworldinternational.wikia.com/wiki/Winged_Elves" title="Winged Elves">Winged Elf</a> class that, of course, deals in long range combat. Archers are   difficult for some people to play, considering they have to keep away   from a monster while still making sure it doesn't walk away and heal.   Archers are very limited in their weapons of choice, and they have to   keep up with ammunition. Weapons of choice: Bows, crossbows, and   slingshots. It may be hard to stick with an archer at first, as they do   not get very good skills till later on, and can only fly for a limited   time, unlike clerics. </p>

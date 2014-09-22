@@ -1,0 +1,103 @@
+<div class="page2-box2 maxheight" style="height: 212px; width:600px;">
+  <div class="box_inner" style=" width:600px;">
+    <form name="form1" method=post action="/?/Mall/Add/{RAND}"  accept-charset="utf-8" enctype="multipart/form-data">
+      <BR />
+      <center>
+      {MSG}
+      <table width=100% border=0>
+        <tr>
+          <td width=48% align="right">Item ID</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><input type=text name="oid" size=20 value="{VID}">
+            No item ID? <a href="#" onclick="form1.oid.value='9999999';">Click here</a></td>
+        </tr>
+        <tr>
+          <td width=48% align="right">Item Name</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><input type=text name="oname" size=20 value="{VNAME}"/></td>
+        </tr>
+        <tr>
+          <td width=48% align="right">Game Type</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><select name="ogame">
+              
+{VGAME}
+
+              <option value="0">-</option>
+              <option value="1">PWI</option>
+              <option value="2">RYL</option>
+            </select></td>
+        </tr>
+        <tr>
+          <td width=48% align="right">Image File</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><input type="file" size="32" name="oimg" value="{VIMG}"/></td>
+        </tr>
+        <tr>
+          <td width=48% align="right">AP Price per stock</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><input type=text name="oprice" size=20 value="{VPRICE}"/>
+            each</td>
+        </tr>
+        <tr>
+          <td width=48% align="right">Stocks</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><input type=text name="ostock" size=20/ value="1" onfocus="form1.ohot.value=form1.ostock.value;"  onchange="form1.ohot.value=form1.ostock.value;" onkeypress="form1.ohot.value=form1.ostock.value;" onblur="form1.ohot.value=form1.ostock.value;" value="{VSTOCK}">
+            stocks</td>
+        </tr>
+        <tr>
+          <td width=48% align="right">Hot Alert</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><input type=text name="ohot" size=20/ value="1" value="{VHOT}">
+            stocks</td>
+        </tr>
+          <tr>
+            <td width=48% align="right">Order Limit per user</td>
+            <td width=2% align="center">:</td>
+            <td width=50%><input type=text name="olimit" size=20/ value="{VLIMIT}">
+              stocks</td>
+          </tr>
+        <tr>
+          <td width=48% align="right">Description</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><textarea name="odesc" cols="50" rows="9">{VDESC}</textarea></td>
+        </tr>
+      </table>
+      </table>
+      <div id="pwmode" style="display:block">
+      <table width=100% border=0>
+        <tr>
+          <td width=100% colspan=3 ><hr /></td>
+        </tr>
+        <tr>
+          <td width=100% colspan=3 ><h1>For Perfect World only</h1></td>
+        </tr>
+        </tr>
+        
+        <tr>
+          <td width=48% align="right">Sender name</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><input type=text name="opwsender" size=20/ value="{VPWSENDER}"></td>
+        </tr>
+        <tr>
+          <td width=48% align="right">Message</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><textarea name="opwmsg" cols="50" rows="9">{VPWMSG}</textarea></td>
+        </tr>
+        <tr>
+          <td width=48% align="right">Count</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><input type=text name="opwcount" size=20/ value="{VPWCOUNT}"></td>
+        </tr>
+        <tr>
+          <td width=48% align="right">Custom Item Data</td>
+          <td width=2% align="center">:</td>
+          <td width=50%><textarea name="opwdata" cols="50" rows="9">{VPWDATA}</textarea></td>
+        </tr>
+      </table>
+      <button class="button3" name="osubmit" value="{VSUBMIT}" type="submit">{VSUBMIT}</button>
+      <button class="button3" name="osubmit" value="2" type="reset">Reset</button>
+      </center>
+    </form>
+  </div>
+</div>

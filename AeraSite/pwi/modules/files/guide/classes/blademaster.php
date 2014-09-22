@@ -1,0 +1,4 @@
+
+                  <p align="center"><img src="images/wr.jpg" /></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A <strong>Blademaster</strong> is a Human class that, as the name says, deals in   sword-type attacks and skills. They deal mainly in offense with physical   attacks, and little to no elemental attacks. Blademasters are extremely   flexible in the weapons that they can wield: Dual swords, dual blades,   blades, swords, scythes, spears, clubs, poleaxes, sledgehammers, dual   handaxes, dual hammers, and fist weapons. To match this wide assortment   of weaponry, Blademasters have a diverse set of skills. They also are   the most varied class in play style, ranging from attacks-per-second   damage dealers to physical damage-per-hit nukes. Or some may be capable   of both. </p>

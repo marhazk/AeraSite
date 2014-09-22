@@ -1,0 +1,606 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Weapon - Shield - Game Guide - Warlords - Official Site</title>
+<meta name="description" content="Weapon - Shield from The Warlords Official Site.">
+<meta name="keywords" content="Weapon - Shield,wl,items,The Warlords.">
+<link rel="SHORTCUT ICON" href="http://images.91.com/wl/favicon.ico">
+<link href="shield_files/0906_index.css" rel="stylesheet" type="text/css" media="screen">
+<link href="shield_files/page_css.css" rel="stylesheet" type="text/css">
+<script src="shield_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" language="javascript" src="shield_files/jquery-1.js"></script>
+<script type="text/javascript" language="javascript" src="shield_files/jquery_wl.js"></script>
+<script type="text/javascript" language="javascript" src="shield_files/fillet.js"></script>
+<link media="all" href="shield_files/bookmark.css" type="text/css" rel="stylesheet"></head>
+<body><div><div id="bkmk_dropdown" onmouseover="bkmk_clearclosewin()" style="display: none; z-index: 1000; left: 884px; position: absolute; top: 1550px;" onmouseout="bkmk_onmouseout()"><div class="title"><div id="logo"><a href="http://wl.91.com/"><img src="shield_files/logo.gif"></a></div><span>Bookmark &amp; Share</span></div><div id="bkmk"><ul id="bookleft"><li><a href="http://wl.91.com/" onclick="return goto_bookmark('delicious')"><img id="bkmk_delicious" alt="" src="shield_files/delicious.gif" height="16" width="16"> Del.icio.us</a></li><li><a href="http://wl.91.com/" onclick="return goto_bookmark('reddit');"><img id="bkmk_reddit" alt="" src="shield_files/reddit.gif" height="16" width="16"> Reddit</a></li><li><a href="http://wl.91.com/" onclick="return goto_bookmark('furl');"><img id="bkmk_furl" alt="" src="shield_files/furl.gif" height="16" width="16"> Furl</a></li><li><a href="http://wl.91.com/" onclick="return goto_bookmark('live');"><img id="bkmk_live" alt="" src="shield_files/live.gif" height="16" width="16"> Live</a></li><li><a href="http://wl.91.com/" onclick="return goto_bookmark('ask');"><img id="bkmk_ask" alt="" src="shield_files/ask.gif" height="16" width="16"> Ask</a></li><li><a href="http://wl.91.com/" onclick="return goto_bookmark('facebook');"><img id="bkmk_facebook" alt="" src="shield_files/facebook.gif" height="16" width="16"> Facebook</a></li></ul><ul id="bookright"><li><a href="http://wl.91.com/" onclick="return goto_bookmark('digg');"><img id="bkmk_digg" alt="" src="shield_files/digg.gif" height="16" width="16"> Digg</a></li><li><a href="http://wl.91.com/" onclick="return goto_bookmark('google');"><img id="bkmk_google" alt="" src="shield_files/google.gif" height="16" width="16"> Google</a></li><li><a href="http://wl.91.com/" onclick="return goto_bookmark('su');"><img id="bkmk_su" alt="" src="shield_files/su.gif" height="16" width="16"> StumbleUpon</a></li><li><a href="http://wl.91.com/" onclick="return goto_bookmark('technorati')"><img id="bkmk_technorati" alt="" src="shield_files/technorati.gif" height="16" width="16"> Technorati</a></li><li><a href="http://wl.91.com/" onclick="return goto_bookmark('myweb');"><img id="bkmk_myweb" alt="" src="shield_files/myweb.gif" height="16" width="16"> YahooMyWeb</a></li><li><a href="http://wl.91.com/" onclick="return goto_bookmark();"><img id="bkmk_more" alt="" src="shield_files/wl_more.gif" height="16" width="16"> More...</a></li></ul></div></div></div>
+<script src="shield_files/us91toplink.js" type="text/javascript"></script><style type="text/css">.us91_top { height:30px;background:#f7f7f7 url(http://images.91.com/us91e/images/91menu_icon2.gif) repeat-x 0 0; font-family:tahoma; font-size:11px; font-weight:bold; border-bottom:1px solid #CDCDCD; text-align:left;min-width:1002px;width:100%}.us91_top a, .us91_top a:hover {font-family:tahoma; text-decoration:none; font-size:11px;text-align:left;font-weight:bold; }.us91_top_logo { float:left; height:30px; width:52px; overflow:hidden; background: url(http://images.91.com/us/toplink/sprite_b.gif) no-repeat -63px -689px;margin-left:30px }.us91_top_logo a { display:block; height:30px; margin:0 auto; text-indent:-900em }.us91_top_nav { float:right; clear:right; height:30px; padding:0 40px 0 0 }.us91_top_nav ul, .us91_top_nav li { margin:0; padding:0; list-style:none;position:relative;z-index:100}.us91_top_nav li { float:left; border-left:1px solid #CDCDCD; line-height:30px; height:30px; background:url(http://images.91.com/us91e/images/91menu_tab.gif) repeat-x 0 -30px; }.us91_top_nav li a, .us91_top_nav li a:hover { text-decoration:none; }.us91_top_nav li span { display:block;line-height:30px;font-weight:bold; }.us91_top_icon1 span, .us91_top_icon2 span, .us91_top_icon3 span { background:url(http://images.91.com/us91e/images/91menu_icon2.gif) no-repeat 0 -30px; padding:0 0 0 30px; }a.us91_top_icon1:hover span { background-position:0 -210px }.us91_top_icon2 span { background-position:0 -60px }a.us91_top_icon2:hover span { background-position:0 -240px }.us91_top_icon3 span { background-position:0 -90px }a.us91_top_icon3:hover span { background-position:0 -270px }a.us91_top_icon1, a.us91_top_icon2, a.us91_top_icon3, a.us91_top_icon4, a.us91_top_icon5 { display:block;*display:inline-block;_display:inline-block;  color:#000; text-decoration:none; border-left:1px solid #F6F6F6; border-right:1px solid #F6F6F6; padding:0 20px }a.us91_top_icon1:hover, a.us91_top_icon2:hover, a.us91_top_icon3:hover { color:#fff; background:url(http://images.91.com/us91e/images/91menu_tab.gif) no-repeat center -60px; }a.us91_top_icon1:hover span, a.us91_top_icon2:hover span, a.us91_top_icon3:hover span{ color:#fff}a.us91_top_icon4:hover, a.us91_top_icon5:hover{ color:#000}.us91_top_icon4 span, .us91_top_icon5 span { background:url(http://images.91.com/us91e/images/91menu_icon2.gif) no-repeat right -180px; padding:0 40px 0 0; }.us91_top_submenu, .us91_top_submenu2 { position: relative; z-index:1000 }.us91_top_submenu_off .us91_top_sublist { display:none }.us91_top_submenu .us91_top_icon4 span { background:url(http://images.91.com/us91e/images/91menu_icon2.gif) no-repeat right -120px; }.us91_top_submenu2 .us91_top_icon5 span { background:url(http://images.91.com/us91e/images/91menu_icon2.gif) no-repeat right -150px; }.us91_top_sublist { position:absolute; top:30px; left:0; background:#5E5E5D; border:1px solid #A3A3A3; width:120px; overflow:hidden; z-index:9999 }.us91_top_sublist a { display:block; width:118px; color:#fff; line-height:24px; text-indent:15px; background:url(http://images.91.com/us91e/images/91menu_icon2.gif) no-repeat left -300px;  }.us91_top_sublist a:hover {   color: #FFFF66 ;background:#2C2C2C url(http://images.91.com/us91e/images/91menu_icon2.gif) no-repeat left -330px;}.us91_top_sublist2 { width:240px; }.us91_top_sublist2 a { display:block; width:119px; overflow:hidden; float:left; border-left:1px solid #737372 }.us91_top_nobg{ background:none!important}.etop_nav{float:left;line-height:32px;font-weight:normal;padding:0 10px}.etop_nav a,.etop_nav a:hover{font-weight:normal;color:#000;padding:0 5px;}</style><div class="us91_top"><div class="us91_top_logo"><a href="http://us.91.com/" title="91com">91com</a></div><div class="us91_top_nav"><ul><li class="us91_top_submenu_off" onmouseover="this.className='us91_top_submenu'" onmouseout="this.className='us91_top_submenu_off'"><a href="http://us.91.com/" class="us91_top_icon4"><span>GAMES</span></a><div class="us91_top_sublist"><a href="http://co.91.com/">Conquer Online</a><a href="http://eo.91.com/">Eudemons Online</a><a href="http://zo.91.com/">Zero Online</a><a href="http://ct.91.com/">Crazy Tao</a><a href="http://w5.91.com/">Way of the Five</a><a href="http://wl.91.com/">The Warlords</a></div></li><li class="us91_top_submenu_off" onmouseover="this.className='us91_top_submenu2'" onmouseout="this.className='us91_top_submenu_off'"><a href="http://us.91.com/" class="us91_top_icon5"><span>COMMUNITY</span></a><div class="us91_top_sublist us91_top_sublist2"><a href="http://album.91.com/">Screenshots</a><a href="http://album.91.com/photo/">Photos</a><a href="http://forum.91.com/">Forum</a><a href="http://news.us.91.com/">News</a><a href="http://download.91.com/">Download</a><a href="http://help.91.com/">Q&amp;A</a><a href="http://poll.91.com/">Poll</a><a href="http://news.us.91.com/jteam/">Journalists Team</a><a href="http://points.91.com/">Points</a><a href="http://news.us.91.com/contest/">Contest</a><a href="http://comment.91.com/">Comment</a></div></li><li><a href="https://account.91.com/common/index.aspx" class="us91_top_icon3"><span>CUSTOMER SERVICE</span></a></li></ul></div></div>
+
+<!--full_bg-->
+<div class="full_bg full_bg1">
+    <!--wrapper-->
+    <div class="wrapper">
+      <!--header-->
+      <div id="header">
+      	<!--nav-->
+        <div id="nav">
+            <div class="item">
+            	<h3><a class="n1" title="Home" href="http://wl.91.com/index/">Home</a></h3>
+            </div>
+            <div class="item">
+            	<h3><a class="n2" title="Signup" href="https://account.91.com/common/signup.aspx?url=http://wl.91.com&amp;flag=wl" target="_blank">Signup</a></h3>
+            </div>
+      		<div class="item">
+            	<h3><a class="n3" title="Download" href="http://wl.91.com/download/index.shtml">Download</a></h3>
+            	<div class="sub_nav"><div class="w1"><div class="w2">
+                    <a href="http://wl.91.com/download/">Client</a> | 
+		  <a href="http://wl.91.com/download/patches.shtml">Patches</a> | 
+          <a href="http://wl.91.com/download/video/">Videos</a>
+                </div></div></div>
+            </div>
+      		<div class="item">
+            	<h3><a class="n4" title="Sales" href="#">Sales</a></h3>            	
+                <div class="sub_nav"><div class="w1"><div class="w2">
+                    <a href="https://credit.91.com/purchase/" target="_blank">Purchase</a> | 
+          <a href="http://credit.91.com/" target="_blank">Credit WL Codes</a> | 
+         <a href="http://wl.91.com/guide/sales/wp_store.shtml">Shopping Mall</a>
+                </div></div></div>
+        	</div>
+      		<div class="item">
+            	<h3><a class="n5" title="Guide" href="http://wl.91.com/guide/">Guide</a></h3>            	
+                <div class="sub_nav"><div class="w1"><div class="w2">
+                    <a href="http://wl.91.com/guide/novice/">Novice Warpath</a> | 
+		  <a href="http://wl.91.com/guide/map/hometown.shtml">Maps/Rebels</a> | 
+		  <a href="http://wl.91.com/guide/items/weapon/shield.shtml">Items</a> | 
+		  <a href="http://wl.91.com/guide/npc/index,1.shtml">NPCs</a> | 
+		  <a href="http://wl.91.com/guide/skill/melee.shtml">Skills</a> | 		  
+		  <a href="http://wl.91.com/guide/novice/manual.shtml">Beginners</a> | 
+		  <a href="http://wl.91.com/guide/quest/">Quests</a> | 
+		  <a href="http://wl.91.com/guide/features/">Featured system</a> | 
+		  <a href="http://wl.91.com/guide/guard/guard_system.shtml">Entourage System</a> | 
+          <a href="http://wl.91.com/guide/equipment/">Equipment System</a> | 
+		  <a href="http://wl.91.com/guide/faq.shtml">FAQs</a>
+                </div></div></div>
+			</div>
+      		<div class="item">
+            	<h3><a class="n6" title="Community" href="#">Community</a></h3>            	
+                <div class="sub_nav"><div class="w1"><div class="w2">
+                    <a href="http://forum.91.com/wl/" target="_blank">Forum</a> | 
+          <a href="http://wl.91.com/activity/hot_event.shtml">Hot Events</a> | 
+          <a href="http://wl.91.com/signout/archives,1.shtml">News Archives</a> | 
+		  <a href="http://album.91.com/list.php?gameid=5" target="_blank">Screenshots</a> | 
+          <a href="http://album.91.com/list_usershow.php?gameid=5" target="_blank">Photos</a> | 
+		  <a href="http://www.myspace.com/tq_theworlords" target="_blank">WL Myspace</a> | 
+          <a href="http://top.wl.91.com/">Top Players</a> | 
+          <a href="http://top.wl.91.com/pk.aspx">PK Board</a>
+                </div></div></div>
+			</div>
+      		<div class="item">
+            	<h3><a class="n7" title="Gallery" href="http://wl.91.com/gallery/">Gallery</a></h3>            	
+                <div class="sub_nav"><div class="w1"><div class="w2">
+                    <a href="http://wl.91.com/gallery/wallpaper5.shtml">Wallpapers</a> | 
+          <a href="http://wl.91.com/gallery/artwork,1.shtml">Artworks</a> | 
+          <a href="http://wl.91.com/gallery/comic.shtml">Comics</a> | 
+		  <a href="http://wl.91.com/gallery/npcs.shtml">NPCs</a> |
+           <a href="http://wl.91.com/gallery/avatar.shtml">Avatars</a>
+                </div></div></div>
+			</div>
+  		    <div class="item">
+            	<h3><a class="n8" title="Customer Service" href="https://account.91.com/common/index.aspx" target="_blank">Customer Service</a></h3>
+			</div>
+      		<div class="item">
+            	<h3><a class="n9" title="Contact" href="http://wl.91.com/info/contact.shtml">Contact</a></h3>
+            </div>
+        </div>
+        <!-- / nav-->
+      </div>      
+            
+      <!-- / header-->
+    </div>
+    <!-- / wrapper-->
+</div>
+<!--full_bg-->
+<!--full_bg-->
+<div class="full_bg full_bg2">
+	<!--wrapper-->
+    <div class="wrapper">
+    	<h1><a title="The Warlords" href="http://wl.91.com/index/">the warlords</a></h1>
+    </div>
+    <!--/wrapper-->
+</div>
+<!--full_bg-->
+<!--full_bg-->
+<div class="full_bg full_bg3">
+	<!--wrapper-->
+    <div class="wrapper">
+    	<h2>free to paly</h2>
+      <h4><a target="_blank" title="Beginners Manual" href="http://wl.91.com/guide/novice/manual.shtml"></a></h4>
+    </div>
+    <!--/wrapper-->
+</div>
+<!--full_bg-->
+<!--full_bg-->
+<div style="height: 1498px;" class="full_bg full_bg4 clearfix">
+    <!--wrapper-->
+    <div class="wrapper">
+      <!--main-->
+      <div id="main">
+      
+      	<div class="sidebar"><div class="sidebar_foot"><div class="sidebar_tractility">
+        	<div class="column1 clearfix">
+            	<a class="n1" href="https://account.91.com/common/signup.aspx?url=http://wl.91.com&amp;flag=wl" title="Sign Up">Sign Up</a>
+                <a class="n2" href="http://wl.91.com/download/index.shtml" title="Download">Download</a>
+                <a class="n3" href="https://credit.91.com/" title="Credit">Credit</a>
+            </div>
+            <div class="column2 clearfix">
+            	<script language="javascript" type="text/javascript" src="shield_files/clock.js"></script>
+            	<script language="javascript" type="text/javascript"><!--
+				new LiveClock('Verdana','2','#EBC8B2',' ',' ','','110','0','1','0','0','-7');
+				//--></script><span id="LiveClock0" style="width:110px;background-color: "><font color="#EBC8B2" face="Verdana" size="2"> 6:20:50 </font></span>
+            </div>
+            <div class="column3 clearfix">
+            	<div class="search">
+<form id="searchbox_002383198147508300476:tud9eu-wats" action="http://search.91.com/us/search.shtml">
+<input name="cx" value="002383198147508300476:tud9eu-wats" type="hidden">
+ <div class="search_txb">
+<input name="q" class="input_1" onfocus="if(this.value=='Input Keywords Here')this.value=''" value="Input Keywords Here" onblur="if(this.value=='')this.value='Input Keywords Here'" style="margin-top: -1px;" type="text">
+</div>
+<input name="cof" value="FORID:11" type="hidden">
+<!-- this script was used to preset the value and style of search box.
+<script type="text/javascript" src="http://www..com/coop/cse/brand?form=searchbox_002383198147508300476:tud9eu-wats"></script>
+-->
+<input name="button" src="shield_files/btn_search.gif" height="25" type="image" width="63" align="absmiddle">
+</form>
+</div>
+            </div>
+            <div class="column4">
+            	<h3><a href="http://wl.91.com/guide/features/" title="Game Features">Game Features</a></h3>
+                <div>
+                    <a class="n1" href="http://wl.91.com/guide/guard/intro.shtml" title="Entourage System">Entourage system</a>
+                    <a class="n2" href="http://wl.91.com/guide/features/voyage.shtml" title="Voyage Campaign">Voyage Campaign</a>
+                    <a class="n3" href="http://wl.91.com/guide/features/brotherhood.shtml" title="Brotherhood Sisterhood">Brotherhood Sisterhood</a>
+                    <a class="n4" href="http://wl.91.com/guide/features/kungfu.shtml" title="Kungfu">Kungfu</a>
+                </div>
+            </div>
+            <div class="column5">
+            	<h3>how to get started</h3>
+                <div>
+                    <a href="http://wl.91.com/info/intro.shtml" title="Introduction">Introduction</a>
+                    <a href="http://wl.91.com/guide/class/" title="Classes">Classes</a>
+                    <a href="http://wl.91.com/info/interface.shtml" title="Game Interface">Game Interface</a>
+                    <a href="http://wl.91.com/guide/guard/intro.shtml" title="Entourage System">Entourage System</a>
+                    <a href="http://wl.91.com/guide/equipment/" title="Equipments">Equipments</a>
+                    <a href="http://wl.91.com/guide/novice/" title="Novice Warpath">Novice Warpath</a>
+                </div>
+            </div>
+            <div class="column6">
+        		<div><a class="n1" href="http://top.wl.91.com/" title="Top Players">Top Players</a></div>
+                <div><a class="n2" href="http://wl.91.com/info/server_maintain.shtml" title="Server Maintenance">Server Maintenance</a></div>
+                <div><a class="n3" href="http://top.wl.91.com/pk.aspx" title="PK Board">PK Board</a></div>
+                <div><a class="n4" href="http://wl.91.com/activity/hot_event.shtml" title="Hot Events">Hot Events</a></div>
+        	</div>
+        </div></div></div>      
+        
+        
+        
+        <div class="column"><div class="column_foot"><div class="right_border">
+        	
+            <div class="column_title">
+            	<div class="JsSelect">
+                    <a class="menu_show">Beginners</a>
+                    <ul class="JsSelectDownBox">
+                        <li><a href="http://wl.91.com/guide/">Game Systems</a>
+                            <ul>
+                            	<li><a href="http://wl.91.com/download/video/">Videos</a></li>
+								<li><a href="http://wl.91.com/info/intro.shtml">Introduction</a></li>
+								<li><a href="http://wl.91.com/info/storyline.shtml" target="_blank">Storyline</a></li>
+								<li><a href="http://wl.91.com/info/background,1.shtml" target="_blank">Background</a></li>
+								<li><a href="http://wl.91.com/guide/class/" target="_blank">Classes</a></li>
+								<li><a href="http://album.91.com/list.php?gameid=5" target="_blank">Screenshots</a></li>
+								<li><a href="http://wl.91.com/gallery/wallpaper5.shtml" target="_blank">Wallpapers</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://wl.91.com/guide/quest/initiations.shtml">Initiations</a>
+                            <ul>
+                            	<li><a href="http://wl.91.com/info/requirement.shtml" target="_blank">System Requirements</a></li>
+								<li><a href="https://account.91.com/common/signup.aspx?url=http://wl.91.com&amp;flag=wl" target="_blank">Sign Up</a></li>
+								<li><a href="http://wl.91.com/download/index.shtml" target="_blank">Download</a></li>
+								<li><a href="http://wl.91.com/info/install.shtml" target="_blank">Install</a></li>
+								<li><a href="http://wl.91.com/info/char_create.shtml" target="_blank">Create a character</a></li>
+								<li><a href="http://wl.91.com/info/interface.shtml" target="_blank">Interface</a></li>
+								<li><a href="http://wl.91.com/guide/novice/" target="_blank">Novice Warpath</a></li>
+								<li><a href="http://wl.91.com/guide/quest/index.shtml" target="_blank">Newbie Quests</a></li>
+								<li><a href="http://help.91.com/answerlist.php?parentid=35&amp;status=R&amp;sType=1" target="_blank">FAQs</a></li>
+                           </ul>
+						</li>
+                        <li><a href="http://wl.91.com/guide/features/">Game Features</a>
+						   <ul>
+                            	<li><a href="http://wl.91.com/guide/guard/guard_system.shtml" target="_blank">Entourage System</a></li>
+								<li><a href="http://wl.91.com/guide/features/brotherhood.shtml" target="_blank">Brotherhood/Sisterhood System</a></li>
+								<li><a href="http://wl.91.com/guide/features/voyage.shtml" target="_blank">Voyage Campaign</a></li>
+								<li><a href="http://wl.91.com/guide/features/nobility.shtml" target="_blank">Rank of Nobility</a></li>
+								<li><a href="http://wl.91.com/guide/features/enlightenment.shtml" target="_blank">Enlightenment System</a></li>
+								<li><a href="http://wl.91.com/guide/features/master.shtml" target="_blank">Master System</a></li>     
+								<li><a href="http://wl.91.com/guide/features/kungfu.shtml" target="_blank">Kungfu</a></li>  
+                            </ul></li>
+                    </ul>
+                </div>
+               <div class="JsSelect">
+                    <a class="menu_show">Game Info</a>
+                    <ul class="JsSelectDownBox">
+                        <li><a href="http://wl.91.com/guide/items/weapon/shield.shtml">Items</a>
+                            <ul>
+                            	<li><a href="http://wl.91.com/guide/items/weapon/shield.shtml">Shield</a></li>
+                                <li><a href="http://wl.91.com/guide/items/weapon/saber.shtml">Saber</a></li>
+                                <li><a href="http://wl.91.com/guide/items/weapon/hook.shtml">Hook</a></li>
+                                <li><a href="http://wl.91.com/guide/items/weapon/mace.shtml">Mace</a></li>
+                                <li><a href="http://wl.91.com/guide/items/weapon/cudgel.shtml">Cudgel</a></li>
+                                <li><a href="http://wl.91.com/guide/items/weapon/bow.shtml">Bow</a></li>
+                                <li><a href="http://wl.91.com/guide/items/armors.shtml">Armors</a></li>
+                                <li><a href="http://wl.91.com/guide/items/helmets.shtml">Helmets</a></li>
+                                <li><a href="http://wl.91.com/guide/items/weapon/shield.shtml">More</a></li>
+                            </ul></li>
+                        <li><a href="http://wl.91.com/guide/skill/melee.shtml">Skills</a>
+                            <ul>
+                            	<li><a href="http://wl.91.com/guide/skill/ranged.shtml">Ranged Skills</a></li>
+                                <li><a href="http://wl.91.com/guide/skill/bow.shtml">Bow</a></li>
+                                <li><a href="http://wl.91.com/guide/skill/melee.shtml">Melee Skills</a></li>
+                                <li><a href="http://wl.91.com/guide/skill/sword.shtml">Sword</a></li>
+                                <li><a href="http://wl.91.com/guide/skill/axe.shtml">Axe</a></li>
+                                <li><a href="http://wl.91.com/guide/skill/cudgel.shtml">Cudgel</a></li>
+                                <li><a href="http://wl.91.com/guide/skill/melee.shtml">More</a></li>
+                            </ul></li>
+                         <li><a href="http://wl.91.com/guide/npc/index,1.shtml">Npcs</a>
+                            <ul>
+                            	<li><a href="http://wl.91.com/guide/npc/index,1.shtml">Lotus Port NPC</a></li>
+                                <li><a href="http://wl.91.com/guide/npc/index,2.shtml">NPC Outside Lotus Port</a></li>
+                            </ul></li>
+                        <li><a href="http://wl.91.com/guide/map/hometown.shtml">Maps/Rebels</a>
+                            <ul>
+                            	<li><a href="http://wl.91.com/guide/map/hometown.shtml">Hometown</a></li>
+                                <li><a href="http://wl.91.com/guide/map/lotus_port.shtml">Lotus Port</a></li>
+                                <li><a href="http://wl.91.com/guide/map/marsh.shtml">The Marsh</a></li>
+                                <li><a href="http://wl.91.com/guide/map/steppe.shtml">The Steppe</a></li>
+                                <li><a href="http://wl.91.com/guide/map/great_wall.shtml">Great Wall</a></li>
+                                <li><a href="http://wl.91.com/guide/map/pk.shtml">PK Map</a></li>
+                                <li><a href="http://wl.91.com/guide/map/hometown.shtml">More</a></li>
+                            </ul></li>
+                        <li><a href="http://wl.91.com/guide/guard/intro.shtml">Equipment System</a>
+                            <ul>
+                            	<li><a href="http://wl.91.com/guide/items/weapon/shield.shtml">Weapons</a></li>
+                                <li><a href="http://wl.91.com/guide/equipment/identify.shtml">Identification</a></li>
+                                <li><a href="http://wl.91.com/guide/equipment/repair.shtml">Repair Equipment</a></li>
+                                <li><a href="http://wl.91.com/guide/equipment/inset_gem.shtml">Inset Gems</a></li>
+                                <li><a href="http://wl.91.com/guide/equipment/refine.shtml">Refine Equipment</a></li>
+                                <li><a href="http://wl.91.com/guide/equipment/replenish.shtml">Replenish Equipment</a></li>
+                                <li><a href="http://wl.91.com/guide/equipment/engrave.shtml">Engrave Stamp</a></li>
+                                <li><a href="http://wl.91.com/guide/equipment/reforge.shtml">Reforge Purity</a></li>
+                            </ul></li>
+                    </ul>
+                </div>
+              <div class="JsSelect">
+                    <a class="menu_show">Features</a>
+                    <ul class="JsSelectDownBox">
+                       <li> <a href="http://wl.91.com/guide/features/medallion.shtml">Medallion</a></li>
+                        <li><a href="http://wl.91.com/guide/features/voyage.shtml">Voyage Campaign</a></li>
+                        <li><a href="http://wl.91.com/guide/features/enlightenment.shtml">Enlightenment System</a></li>
+                        <li><a href="http://wl.91.com/guide/guard/intro.shtml">Entourage System</a></li>
+                        <li><a href="http://wl.91.com/guide/features/kungfu.shtml">KungFu</a></li>
+                        <li><a href="http://wl.91.com/guide/features/pk_tournament.shtml">PK Tournaments</a></li>
+                        <li><a href="http://wl.91.com/guide/features/brotherhood.shtml">Brotherhood (Sisterhood) System</a></li>
+                        <li><a href="http://wl.91.com/guide/features/reinforcement.shtml">Reinforcement</a></li>
+                        <li><a href="http://wl.91.com/guide/features/interaction_community.shtml">Interaction Community</a></li>
+                        <li><a href="http://wl.91.com/guide/features/">More</a></li>
+                  </ul>
+               </div>
+               <div class="JsSelect">
+                    <a class="menu_show">Quests</a>
+                    <ul style="top: -100em;" class="JsSelectDownBox">
+                        <li style="width: 127px;"><a href="http://wl.91.com/guide/quest/initiations.shtml">Initiations</a>
+                             <ul>
+                            	<li><a href="http://wl.91.com/guide/quest/initiations.shtml">Level 1-20</a></li>
+                                <li><a href="http://wl.91.com/guide/tutorial/footman2.shtml">Level 20-40</a></li>
+                                <li><a href="http://wl.91.com/guide/tutorial/footman3.shtml">Level 40-70</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/weapon_technique.shtml">Weapon Technique Quest</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/station.shtml">Station Quest</a></li>
+                             </ul></li>
+                        <li style="width: 127px;"><a href="http://wl.91.com/guide/quest/">Daily Quests</a>
+						     <ul>
+                            	<li><a href="http://wl.91.com/guide/quest/central_park.shtml">Central park</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/chess_isle.shtml">Chess Isle</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/royal_treasure.shtml">Royal Treasure</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/silver_beach.shtml">Silver Beach</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/wicked_robbers.shtml">Wicked Robbers</a></li>
+								<li><a href="http://wl.91.com/guide/quest/horse_race.shtml">Horse Race</a></li>
+                             </ul></li>
+                        <li style="width: 127px;"><a href="http://wl.91.com/guide/quest/">Voyage Campaigns</a>
+						     <ul>
+                            	<li><a href="http://wl.91.com/guide/quest/northerncamp.shtml">Northern Camp</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/war_wind.shtml">War Wind</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/ancient_town.shtml">The Ancient Town</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/gargo_express.shtml">Cargo Express</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/parade.shtml">Parade</a></li>
+								<li><a href="http://wl.91.com/guide/quest/sieged_town.shtml">Sieged Town</a></li>
+								<li><a href="http://wl.91.com/guide/quest/spring_harbor.shtml">Spring Harbor</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/rescue_village.shtml">Village Rescue</a></li>
+								<li><a href="http://wl.91.com/guide/quest/">More</a></li>
+                             </ul></li>
+                        <li style="width: 127px;"><a href="http://wl.91.com/guide/quest/">Others</a>
+						     <ul>
+                            	<li><a href="http://wl.91.com/guide/quest/restore_pill.shtml">Restore Pill</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/dragon_boat.shtml">Dragon Boat Festival</a></li>
+                                <li><a href="http://wl.91.com/content/2009-06-05/20090605010240310.shtml">Trivia Event</a></li>
+                                <li><a href="http://wl.91.com/guide/quest/mysterious_abyss.shtml">Mysterious Abyss</a></li>
+                             </ul></li>
+                    </ul>
+                </div>
+                <div class="JsSelect">
+                    <a class="menu_show">Follow Us</a>
+                    <ul class="JsSelectDownBox">
+                        <li><a class="s1" href="http://www.myspace.com/tq_theworlords" target="_blank">WL Myspace</a></li>
+                        <li><a class="s2" href="http://www.facebook.com/pages/The-Warlords/111343213972" target="_blank">WL Facebook</a></li>
+                        <li><a class="s3" href="http://profiles.friendster.com/tqwl" target="_blank">WL Friendster</a></li>
+                        <li><a class="s4" href="http://twitter.com/tq_warlords" target="_blank">WL Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="news_main">
+                <div class="news_main_head"><a href="http://wl.91.com/index/">Home</a> &gt;&gt; <a href="http://wl.91.com/guide/">Guide</a> &gt;&gt; Weapon - Shield</div>                
+                <div class="news_main_body">
+                  <h1>Weapon - Shield</h1>
+                  <!--article content-->
+				  <div class="news_main_con">
+                 <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
+<tbody>
+<tr>
+<td>	<table class="set_tab" bgcolor="#FFFFFF" border="0" cellpadding="3" cellspacing="1" width="90%" align="center">
+  <tbody><tr>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/spear.shtml">Spear</a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/saber.shtml">Saber</a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/sword.shtml">Sword</a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/vouge.shtml">Vouge</a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/halberd.shtml">Halberd</a></strong></div></td>
+  </tr>
+  <tr>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/shield.shtml">Shield</a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/mace.shtml">Mace</a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/sickle.shtml">Sickle</a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/hook.shtml">Hook</a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/staff.shtml"> Staff</a></strong></div></td>
+  </tr>
+  <tr>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/bow.shtml">Bow </a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/hammer.shtml">Hammer</a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/axe.shtml">Axe </a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/cudgel.shtml">Cudgel </a></strong></div></td>
+    <td><div align="center"><strong><a href="http://wl.91.com/guide/items/weapon/pike.shtml">Pike </a></strong></div></td>
+  </tr>
+</tbody></table>
+
+
+
+<br><br>
+<table class="set_tab" bgcolor="#ffffff" border="1" cellpadding="3" cellspacing="0" width="90%" align="center">
+<tbody>
+<tr>
+<td>
+<div align="center"><strong>Image</strong></div></td>
+<td>
+<div align="center"><strong>Name</strong></div></td>
+<td>
+<div align="center"><strong>Level</strong></div></td>
+<td>
+<div align="center"><strong>Class</strong></div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield01.jpg" border="0" width="41"></div></td>
+<td>
+<div align="center">Bucklerr</div></td>
+<td>
+<div align="center">1</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield02.jpg" width="41"></div></td>
+<td>
+<div align="center">Ebony-Shield</div></td>
+<td>
+<div align="center">10</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield03.jpg" width="41"></div></td>
+<td>
+<div align="center">Skull-Shield</div></td>
+<td>
+<div align="center">20</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield04.jpg" width="41"></div></td>
+<td>
+<div align="center">Venom-Shield</div></td>
+<td>
+<div align="center">30</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield05.jpg" width="41"></div></td>
+<td>
+<div align="center">Onyx-Shield</div></td>
+<td>
+<div align="center">40</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield06.jpg" width="41"></div></td>
+<td>
+<div align="center">Compass-Shield</div></td>
+<td>
+<div align="center">50</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield07.jpg" width="41"></div></td>
+<td>
+<div align="center">Turtle-Shield</div></td>
+<td>
+<div align="center">60</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield08.jpg" width="41"></div></td>
+<td>
+<div align="center">Malice-Shield</div></td>
+<td>
+<div align="center">70</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield09.jpg" width="41"></div></td>
+<td>
+<div align="center">Aegis-Shield </div></td>
+<td>
+<div align="center">80</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield10.jpg" width="41"></div></td>
+<td>
+<div align="center">Sunblaze-Sheild</div></td>
+<td>
+<div align="center">90</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield11.jpg" width="41"></div></td>
+<td>
+<div align="center">Emerald-Shield</div></td>
+<td>
+<div align="center">125</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield12.jpg" width="41"></div></td>
+<td>
+<div align="center">Prism-Shield </div></td>
+<td>
+<div align="center">130</div></td>
+<td>
+<div align="center">Footman</div></td></tr>
+<tr>
+<td>
+<div class="pic" align="center"><img src="shield_files/shield13.jpg" width="41"></div></td>
+<td>
+<div align="center">Lotus-Shield </div></td>
+<td>
+<div align="center">135</div></td>
+<td>
+<div align="center">Footman</div></td></tr></tbody></table></td></tr></tbody></table>
+                 <br><br>
+                 
+                <table class="news_main_post" border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tbody><tr>
+                    <td><a href="http://comment.91.com/html/2009/02/11/1346/index.htm">* Post / View All Comments *</a></td>
+                    <td> <a href="http://news.us.91.com/jteam/">* To Be a Journalist *</a> </td>
+                  </tr>
+                </tbody></table>
+				<script src="shield_files/wl_useful.js" type="text/javascript"></script>		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tbody>
+		<tr>
+		<td colspan="3">
+		<hr color="#682c2c" noshade="noshade" size="2"></td>
+		</tr>
+		<tr>
+		<td width="300"> </td>
+		<td><div align="center">
+<a href="#notop" onmouseover="return bkmk_onmouseover(this, event, 'http%3A%2F%2Fwl.91.com%2Fguide%2Fitems%2Fweapon%2Fshield.shtml', 'Weapon%20-%20Shield%20-%20Game%20Guide%20-%20Warlords%20-%20Official%20Site')" onmouseout="bkmk_onmouseout()"><img src="shield_files/bookmark.gif" class="mmosite_bookmark" alt="Bookmarking Widget" border="0" height="26" width="124"></a>      </div></td>
+		<td><div align="center"> <a href="javascript:win_open_bug();"><img src="shield_files/weberror090401.gif" border="0"></a> </div></td>
+		</tr>
+		</tbody></table>
+<br>
+                  </div>
+				  <!--/article content-->
+                </div>
+               
+               
+             <div class="news_main_body1">
+                <div class="news_main_other news_main_other1">
+                        	<ul><li><div class="guide_head">
+                             <table id="related_con">
+						  <tbody><tr>
+							<td>
+                             <script type="text/javascript" src="shield_files/wl_test.js"></script><table class="js_91help" width="100%"></table>
+                            </td>
+						  </tr>
+					       </tbody></table>
+							 <table class="news_main_more" border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody><tr>
+                                <td align="right"><a href="http://help.91.com/answerlist.php?parentid=35&amp;status=R&amp;sType=1"><img src="shield_files/news_main_more.gif" height="15" width="50"></a></td>
+                              </tr>
+                            </tbody></table>
+							</div></li></ul>
+                           </div>
+						 <div class="news_main_other news_main_other2">
+                        	<ul><li><div class="head2">
+                            <table border="0" cellpadding="5" cellspacing="5" width="100%">
+                              <tbody><tr>
+                                <td> <script type="text/javascript" src="shield_files/wl_ss_all.js"></script><table class="album_js" width="100%"><tbody><tr><td><div align="center"><a href="http://album.91.com/index.php?c=picture&amp;a=view&amp;id=7753&amp;uid=257563" target="_blank"><img src="shield_files/130203862325s.jpg" border="0" height="135" width="180"></a></div></td></tr></tbody></table></td>
+                                <td><script type="text/javascript" src="shield_files/wl_pp_all.js"></script><table class="album_js" width="100%"><tbody><tr><td><div align="center"><a href="http://album.91.com/index.php?c=picture&amp;a=view&amp;id=6273&amp;uid=307875" target="_blank"><img src="shield_files/132403635334s.jpg" border="0" height="160" width="140"></a></div></td></tr></tbody></table></td>
+                              </tr>
+                              <tr>
+                                <td><a href="http://album.91.com/list.php?gameid=5" target="_blank"><img src="shield_files/news_main_more.gif"></a></td>
+                                <td><a href="http://album.91.com/list_usershow.php?gameid=5" target="_blank"><img src="shield_files/news_main_more.gif"></a></td>
+                              </tr>
+                            </tbody></table>
+                           </div></li></ul>
+                        </div>
+                        <div class="clearfix"></div>
+                   </div>
+        
+                <div class="news_main_foot"></div>
+            </div>
+        </div></div></div>
+      </div>
+      <!-- / main-->
+     </div>
+    <!-- / wrapper-->
+</div>
+<!--full_bg-->
+<br class="clear">
+<!--full_bg-->
+<div class="full_bg full_bg5 clearfix">
+    <!--wrapper-->
+    <div class="wrapper">
+      <!--footer-->
+      <div id="footer">
+  <script language="javascript" type="text/javascript" src="shield_files/bm.js"></script>
+  <script language="javascript" type="text/javascript">publicBottom(site.wl, 1002, "_self")</script><table class="public_bm_table" border="0" cellpadding="0" cellspacing="5" height="50" width="1002"><tbody><tr>
+<td class="public_bm_td2" id="public_bottom_context" align="center">Copyright © 2003-2012 <a href="http://us.91.com/">91.com</a> All Rights Reserved.<br><a target="_self" href="http://us.91.com/tq/about91.shtml">About Us</a>|<a target="_self" href="http://eu.91.com/">91 EU</a>|<a target="_self" href="http://wl.91.com/info/contact.shtml">Contact Us</a>|<a target="_self" href="https://account.91.com/common/signup.aspx?url=http://wl.91.com&amp;flag=wl">Sign Up</a>|<a target="_self" href="http://wl.91.com/guide/faq.shtml">Product FAQ</a>|<a target="_self" href="https://account.91.com/common/read.htm">User Agreement</a>|<a target="_self" href="http://wl.91.com/guide/sitemap.shtml">Site Map</a><br></td></tr></tbody></table>
+
+  </div>
+      <!-- / footer-->
+    </div>
+    <!-- / wrapper-->
+</div>
+<!--full_bg-->
+<div style="position: absolute; width: 84px; height: 108px; right: 2px; top: 447px;" id="uptop"><a onclick="window.scroll(0,0);"><img src="shield_files/uptop.gif"></a></div>
+<div style="display:none;">
+<!-- START AIYA Site Stat. -->
+<script language="JavaScript" type="text/javascript" src="shield_files/stat.js"></script><img src="shield_files/a.txt" height="0" width="0">
+
+<noscript><img src="//logs.aiya.com.cn/a?ci=91" alt="" /></noscript>
+<!-- END AIYA Site Stat. -->
+</div>
+
+
+</body></html>
