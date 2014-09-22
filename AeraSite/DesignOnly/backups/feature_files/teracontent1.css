@@ -1,0 +1,16 @@
+#bkmk_dropdown {width:237px;height:145px!important;*height:140px;border:#682c2c 1px solid; background:#fff; font-family:tahoma}
+#bkmk_dropdown .title{ background:#682c2c; width:232px; padding:3px; height:16px}
+#logo {float:right}
+#logo img {border:none;}
+#bkmk_dropdown span {height:15px;background:#682c2c;color:#fff;margin:0;padding-left:2px;font-family:Tahoma;font-size:12px; float:left}
+
+#bkmk {width:240px !important;width:235px;height:130px;}
+#bkmk ul {float:left;padding:5px 0 0 0;}
+#bkmk ul#bookleft {margin:0 2px 0 2px;text-align:left}
+#bkmk ul#bookright {margin:0 2px 0 12px;text-align:left}
+
+#bkmk ul li  {list-style:none;width:80px;font-size:12px;line-height:18px;padding:0 0 2px 2px; *margin-bottom:2px; text-align:left; width:100px;}
+
+#bkmk ul li img{ border:0px}
+#bkmk ul li a {text-decoration:none;color:#000;display:block;}
+#bkmk ul li a:hover {display:block;background:#682c2c; color:#fff}

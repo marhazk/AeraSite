@@ -1,0 +1,45 @@
+<hr>
+<form name="form1" method="post" action="/?/Accounts/TopupPoint/RedeemCode/{KEY}/Add">
+    <table width="100%">
+        <tr>
+            <td width=30% valign=top align=right>*Topup Amount (coin):</td>
+            <td width=70% valign=top align=left><input type=text name=topupamount value=0 size=50></td>
+        </tr>
+        <td width=30% valign=top align=right>*Topup Price (RM):</td>
+        <td width=70% valign=top align=left><input type=text name=topupprice value=0 size=50></td>
+        </tr>
+        <tr>
+            <td width=30% valign=top align=right>*Topup To & Group:</td>
+            <td width=70% valign=top align=left><select name=topupuid>
+                <option value=0 selected>-</option>
+                {FORMUID}</select> <select name=topupuid2>
+                <option value=0 selected>-</option>
+                {FORMEMAIL}</select> <select name=topupgroup>
+                <option value=A>A - Normal Aeracode</option>
+                <option value=B>B - Banned Aeracode</option>
+                <option value=C>C - Reserved Aeracode</option>
+                <option value=D>D - Locked Aeracode</option>
+                <option value=E selected>E - Purchased with real Money</option>
+                <option value=X>X - E-mail validation succeed</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td width=30% valign=top align=right>Topup BanMessage :</td>
+            <td width=70% valign=top align=left><input type=text name=topupmsg size=50></td>
+        </tr>
+
+        <tr>
+            <td width="50%" align="right"><strong>Date (For Redeemer via ATM):</strong></td>
+            <td width="50%" align="left"><strong><input type=date name=datecode></strong></td>
+        </tr>
+        <tr>
+            <td width="50%" align="right"><strong>Time (For Redeemer via ATM):</strong></td>
+            <td width="50%" align="left"><strong><input type=time name=timecode></strong></td>
+        </tr>
+        <tr>
+            <td width=30% valign=top align=right></td>
+            <td width=70% valign=top align=left><input type=submit name=topup value=Add id=topup class="button3"></td>
+        </tr>
+    </table>
+</form>

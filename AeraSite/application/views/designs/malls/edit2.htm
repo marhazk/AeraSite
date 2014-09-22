@@ -1,0 +1,39 @@
+<div class="page2-box2 maxheight" style="height: 212px; width:600px;"><div class="box_inner" style=" width:600px;">
+<form name="form1" method=post action="/?/Mall/EditPurchase/{RAND}/Save/"  accept-charset="utf-8" enctype="multipart/form-data">
+  <BR />
+<center>
+{MSG}
+<input type=hidden name="pid" size=20 value="{VID}">
+<table width=100% border=0>
+<tr>
+<td width=48% align="right">Username</td><td width=2% align="center">:</td><td width=50%><select name="puid">
+{VUID}
+</select> 
+</td>
+</tr>
+<tr>
+<td width=48% align="right">Stock Name</td><td width=2% align="center">:</td><td width=50%><select name="psid">
+{VSID}
+</select> 
+</td>
+</tr>
+<tr>
+<td width=48% align="right">Status</td><td width=2% align="center">:</td><td width=50%><select name="pstatus">
+{VSTATUS}
+<option value="0">-</option>
+<option value="1">Purchased & Pending</option>
+<option value="2">Purchased & Delivered</option>
+<option value="3">Failed</option>
+</select> 
+</td>
+</tr>
+<tr>
+<td width=48% align="right">AP Price per stock</td><td width=2% align="center">:</td><td width=50%><input type=text name="ptotal" size=20 value="{VTOTAL}"/></td>
+</tr>
+</table>
+<button class="button3" name="osubmit" value="{VSUBMIT}" type="submit">{VSUBMIT}</button> 
+<button class="button3" name="osubmit" value="2" type="reset">Reset</button>
+</center>
+</form>
+</div></div>
+

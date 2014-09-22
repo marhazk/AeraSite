@@ -1,0 +1,149 @@
+/***** Contact form *****/
+#form1 {
+	position:relative;
+	vertical-align:top;
+	z-index:1;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:5px;
+	width:100%;
+}
+
+#form1 fieldset {
+border:none;
+padding:0;
+}
+
+
+#form1 label {display:block; min-height:46px; position:relative;width: 319px;box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	display: block;
+    float: none;
+    position: relative;
+}
+
+
+#form1 label.message {
+    height: 263px;
+    width: 620px;
+}
+
+.p27 {margin-right:16px;}
+
+#form1 fieldset {
+	width:100%;
+}
+
+#form1 input {
+	outline: none;
+	border:1px solid #d7d8ce;
+	color: #a3a597;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+	line-height:16px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    margin: 0;
+	padding: 10px 14px;
+    width: 351px;
+	display:inline-block;
+}
+#form1 .area .error { float:none;}
+#form1 textarea {	
+	height:233px;
+	margin:0;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+	width:100%;	
+	line-height:16px;
+	resize:none;
+	outline: none;
+	border:1px solid #d7d8ce;
+	padding: 7px 14px;
+	overflow:auto;
+	color:#a3a597;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	display:block;
+}
+#form1 a {cursor:pointer;}
+#form1 .success {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D7D8CE;
+    display: none;
+    height: 130px;
+    position: absolute;
+    width: 351px;
+    z-index: 1;
+}
+
+#form1 .success .success_txt {
+    color: #000;
+    position: relative;
+    text-align: center;
+    top: 31%;
+}
+#form1 .error,
+#form1 .empty {
+	color:#f00;
+	font-size:10px;
+	line-height:1.25em;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	position:absolute;
+	right:5px;
+	top:3px;
+}
+#form1 .message .error,
+#form1 .message .empty  {
+	left: 4px;
+    top: 219px;
+	right:auto;
+}
+
+.link-form {
+	float: right;
+}
+
+
+.page5-img1 iframe {
+    height: 287px;
+    overflow: hidden;
+    width: 100%;
+}
+
+@media only screen and (max-width: 995px) {
+	#form1 input ,
+	#form1 label.message,
+	#form1 label,
+	#form1 .success
+	{width:100%;}
+
+}
+
+ @media only screen and (max-width: 767px) {
+	
+	 }
+ 
+
+
+
+@media only screen and (max-width: 479px){
+
+	
+
+}

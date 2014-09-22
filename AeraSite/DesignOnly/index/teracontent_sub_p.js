@@ -1,0 +1,1 @@
+document.write('<table width=100% class=album_js><tr><td><div align="center"><a href="http://album.91.com/index.php?c=picture&a=view&id=19157&uid=836880117" target="_blank"><img src="http://p0.91huo.com/abum91e/upload/2012/12/23/135628079238s.jpg" border="0"  height="90"></a></div></td></tr></table>');

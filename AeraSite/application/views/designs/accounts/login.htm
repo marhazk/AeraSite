@@ -1,0 +1,44 @@
+<!--==============================content================================-->
+<style>
+.s1,.s2,.s3,.s4,.s5{ display:inline-block; background:url(../images/login_sprite.png) no-repeat 0 0; width:89px; height:25px; margin-right:10px; vertical-align:top;}
+.share{ font-size:0; *word-spacing:-1px;}
+.s1,.s2,.s3,.s4,.s5{ width:24px; height:24px; line-height:300px; overflow:hidden; margin-right:17px; border:1px solid #533215; background-color:#000;}
+.s2{ background-position:-26px 0;}
+.s3{ background-position:-52px 0;}
+.s4{ background-position:-78px 0;}
+.s5{ background-position:-104px 0;}
+.s1:hover,.s2:hover,.s3:hover,.s4:hover,.s5:hover{ border-color:#eb961f;}
+
+</style>
+<section id="content">
+  <div class="container_12">
+    <div class="wrapper p17">
+      <form id="form1" action="/?/Accounts/Login" method="POST">
+        <div class="success" style="display: none;">
+          <div class="success_txt">Contact form submitted!<br>
+            <strong> We will be in touch soon.</strong></div>
+        </div>
+        <center>
+          <h2>Account Log-in</h2>
+          <fieldset>
+            <label class="name wrapper-after">
+              <input name="uname" type="text" placeholder="Name:">
+              <span class="error" style="display: none;">*This is not a valid name.</span> <span class="empty" style="display: none;">*This field is required.</span> </label>
+            <label class="password">
+              <input name="upass" type="password" value="">
+              <span class="error" style="display: none;">*This is not a valid password.</span> <span class="empty" style="display: none;">*This field is required.</span> </label>
+          </fieldset>
+          <div class="clear"></div>
+          <div class="clear"></div>
+
+          <button class="button3" data-type="submit" type="submit">Log-In</button>
+          <button class="button3 p27" data-type="reset" type="reset">Clear</button>
+          <br />
+          <br />
+          <p>Forgot password? Click <a href="/?/Accounts/Reset">here</a> to reset your password<br />
+            Dont have an account? Click <a href="/?/Accounts/Create">here</a> to register<BR />Dont receive validation code? Click <a href="/?/Accounts/ResendValidate">here</a> to re-send your validation code</p>
+        </center>
+      </form>
+    </div>
+  </div>
+</section>

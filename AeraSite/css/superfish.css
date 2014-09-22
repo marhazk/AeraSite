@@ -1,0 +1,139 @@
+/*** MENU ***/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    margin: 0 2px;
+	font-size:12px;
+	line-height:15px;
+    padding: 9px 23px 10px;
+    position: relative;
+    text-shadow: 0 1px 1px #479166;
+    text-transform: uppercase;
+}
+
+.sf-menu li:hover a,
+.sf-menu li.current,
+.sf-menu li.sfHover > a {
+	background:#b6deaf;
+	text-shadow:0 1px 1px #a1c09b;
+	text-decoration:none;
+}
+
+.sf-menu ul a:hover,
+.sf-menu ul li.sfHover > a {
+	background:#282728;
+	text-shadow:none;
+	text-decoration:none;
+}
+
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	background:#b6deaf;
+	width:			179px; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu ul a {
+	padding:9px 0 10px 24px;
+	margin:0;
+	text-shadow:0 1px 1px #a1c09b;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left: 2px;
+    top: 35px; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			179px; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+.sf-menu li.sub-menu:after {
+    background: url("../images/indicator.png") no-repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 4px;
+    right: 10%;
+    margin-top: -1px;
+    position: absolute;
+    top: 48%;
+    width: 5px;
+}
+
+
+
+.sf-menu ul .sf-sub-indicator {	
+	right: 25px;
+    top: 15px;
+}
+
+
+/* Design for a width of 768px */
+@media only screen and (max-width: 995px) {
+
+	
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+
+
+nav select {
+    outline:none;
+	display: block !important;
+	height:25px;
+	line-height:25px;
+	padding:0 0 4px;
+}	
+
+.sf-menu{display:none}
+
+
+
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {	
+
+
+
+.sf-menu{display:none}
+}
